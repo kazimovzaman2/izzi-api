@@ -20,19 +20,32 @@ To use this project, follow these steps:
 
 ## API Documentation
 
-### Endpoints
+### Authentication Endpoints
 
-#### /api/v1/items/
+- /api_auth/login/ (POST)
+- /api_auth/register/ (POST)
+- /api_auth/token-refresh/ (POST)
+- /api_auth/update-user/ (GET, PUT)
+- /api_auth/reset-password/ (POST)
+- /api_auth/change-password/ (PUT)
+- /api_auth/users/ (GET)
 
-##### GET
-##### POST
+### Service Endpoints
+- /api_services/blog/ (GET)
+- /api_services/order/ (GET, POST)
+- /api_services/order/{id}/ (GET, POST, DELETE)
+- /api_services/service/ (GET)
+- /api_services/service/{id}/ (GET)
+- /api_services/sub-service/ (GET)
+- /api_services/sub-service/{id}/ (GET)
+- /api_services/service-choices/ (GET)
+- /api_services/service-choices/{id}/ (GET)
 
 
-#### /api/v1/items/:id/
+### Tasker Endpoints
+- /api_services/tasker/ (GET)
+- /api_services/tasker/{id}/ (GET)
 
-##### GET
-##### PUT
-##### DELETE
 
 ## Contributing
 
