@@ -22,29 +22,29 @@ To use this project, follow these steps:
 
 ### Authentication Endpoints
 
-- `/api_auth/login/ (POST)`
-- `/api_auth/register/ (POST)`
-- `/api_auth/token-refresh/ (POST)`
-- `/api_auth/update-user/ (GET, PUT)`
-- `/api_auth/reset-password/ (POST)`
-- `/api_auth/change-password/ (PUT)`
-- `/api_auth/users/ (GET)`
+- `/api_auth/login/` (POST)
+- `/api_auth/register/` (POST)
+- `/api_auth/token-refresh/` (POST)
+- `/api_auth/update-user/` (GET, PUT)
+- `/api_auth/reset-password/` (POST)
+- `/api_auth/change-password/` (PUT)
+- `/api_auth/users/` (GET)
 
 ### Service Endpoints
-- `/api_services/blog/ (GET)`
-- `/api_services/order/ (GET, POST)`
-- `/api_services/order/{id}/ (GET, POST, DELETE)`
-- `/api_services/service/ (GET)`
-- `/api_services/service/{id}/ (GET)`
-- `/api_services/sub-service/ (GET)`
-- `/api_services/sub-service/{id}/ (GET)`
-- `/api_services/service-choices/ (GET)`
-- `/api_services/service-choices/{id}/ (GET)`
+- `/api_services/blog/` (GET)
+- `/api_services/order/` (GET, POST)
+- `/api_services/order/{id}/` (GET, POST, DELETE)
+- `/api_services/service/` (GET)
+- `/api_services/service/{id}/` (GET)
+- `/api_services/sub-service/` (GET)
+- `/api_services/sub-service/{id}/` (GET)
+- `/api_services/service-choices/` (GET)
+- `/api_services/service-choices/{id}/` (GET)
 
 
 ### Tasker Endpoints
-- `/api_services/tasker/ (GET)`
-- `/api_services/tasker/{id}/ (GET)`
+- `/api_services/tasker/` (GET)
+- `/api_services/tasker/{id}/` (GET)
 
 
 ## Contributing
